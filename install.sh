@@ -2,7 +2,7 @@
 
 sudo apt install python3 -y
 sudo apt install pip3 -y
-
+git clone https://github.com/HavalHezha/SnakeGame.git
 #!/bin/bash
 # Define the filename for the new script
 new_script="play.sh"
