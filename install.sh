@@ -17,4 +17,4 @@ EOF
 # Make the new script executable (optional)
 chmod +x "$new_script"
 
-echo "execute play.py ( bash play.py )"
+echo "execute play.py ( bash play.sh )"
