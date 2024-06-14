@@ -10,11 +10,11 @@ new_script="play.sh"
 # Use a Here Document to write the content of the new script
 cat > "$new_script" << EOF
 #!/bin/bash
-
-echo "Hello from the new script!"
+cd SnakeGame
+python3 Snakeku.py
 EOF
 
 # Make the new script executable (optional)
 chmod +x "$new_script"
 
-echo "New script '$new_script' created."
+echo "execute play.py ( bash play.py )"
